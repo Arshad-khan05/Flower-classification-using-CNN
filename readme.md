@@ -1,78 +1,53 @@
-# Flower Classification
+# Flower Classification using CNN
 
-This repository contains code for a flower classification model built using TensorFlow and Keras. The model is capable of classifying images of flowers into one of five categories: Daisy, Dandelion, Rose, Sunflower, and Tulip.
+This repository contains code for a Convolutional Neural Network (CNN) model that classifies different types of flowers. The model is trained using TensorFlow and Keras libraries.
+
+## Dataset
+You can download the dataset used for this project from [Kaggle](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition?rvi=1). Make sure to place the dataset in an appropriate directory structure.
 
 ## Requirements
-
 - Python 3.x
 - TensorFlow
 - Keras
-- numpy
-- pandas
-- OpenCV (cv2)
+- NumPy
+- Pandas
+- OpenCV
 - Matplotlib
 - PIL (Python Imaging Library)
 
-## Getting Started
-
+## Instructions
 1. Clone the repository:
 
-   ```bash
-   git clone <repository_url>
-   cd flower-classification
-   ```
+    ```bash
+    git clone https://github.com/Arshad-khan05/Flower-classification-using-CNN.git
+    ```
 
-2. Ensure you have the required dependencies installed. You can install them using pip:
+2. Navigate to the cloned repository:
 
-   ```bash
-   pip install tensorflow keras numpy pandas opencv-python matplotlib pillow
-   ```
+    ```bash
+    cd Flower-classification-using-CNN
+    ```
 
-3. Download the dataset and place it in the `/content/drive/MyDrive/flowers` directory.
+3. Install the required Python packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Download the dataset from the provided link and place it in the repository directory.
+
+5. Ensure you have the Python file named `OutputFlowers.ipynb`.
+
+6. Open and run the `OutputFlowers.ipynb` file in your preferred environment. We recommend using Google Colab for smooth execution.
 
 ## Usage
+- Make sure to adjust file paths and directory structures according to your setup.
+- Follow the instructions provided in the Jupyter notebook file for training the model and making predictions.
+- If you encounter any issues, feel free to open an issue on the GitHub repository.
 
-1. Run the `flower_classification.py` script to train the model:
+## Model File
+After training, the model will be saved as `OutputFlower.h5`.
 
-   ```bash
-   python flower_classification.py
-   ```
+## Contact
+For any inquiries or suggestions, please contact [Arshad Khan](https://github.com/Arshad-khan05).
 
-2. The model will be trained using the provided dataset, and the trained model will be saved as `OutputFlower.h5` in the specified directory.
-
-3. To classify new flower images, use the provided code snippets in `classify_flowers.py`. You can specify the paths to the images you want to classify.
-
-### Note for Users:
-
-- **Add Your Own Image:** To classify your own flower image, replace the path in the provided code snippets with your desired image path.
-
-- **Use Google Colab:** We recommend using Google Colab for running the code, as it provides free access to GPUs, which can significantly speed up the training process.
-
-You can access the Colab notebook directly by clicking [here](<link_to_your_colab_notebook>).
-
-## Model Architecture
-
-The flower classification model is built using a Convolutional Neural Network (CNN) architecture:
-
-- Input Layer: 224x224x3 pixels
-- Convolutional Layers: 4 layers with 64 filters each, followed by max-pooling layers.
-- Flatten Layer
-- Dense Layers: 1 hidden layer with 512 units, followed by an output layer with 5 units using softmax activation.
-
-## Evaluation
-
-The model is evaluated using the categorical cross-entropy loss function and accuracy metrics. It is trained for 50 epochs with a batch size of 64.
-
-## Sample Classification
-
-You can use the provided code snippets to classify sample flower images. Ensure the paths to the images are correctly specified.
-
-## OutputFlower.h5
-
-The trained model file `OutputFlower.h5` is available in the repository. You can load this model to perform flower classification tasks.
-
-## Author
-
-This flower classification model is developed by [Your Name].
-
-If you have any questions or suggestions, feel free to contact [Your Email].

@@ -10,6 +10,22 @@ This project is a Convolutional Neural Network (CNN) model designed for classify
 - Saves the trained model for later use.
 - Predicts flower categories for new input images.
 
+## Results
+
+![Screenshot of the Application](Output/Image01.png)
+
+<table>
+    <tr>
+        <td><img src="Output/Image05.png" alt="Example Image 1" style="width: 100%;"></td>
+        <td><img src="Output/Image03.png" alt="Example Image 2" style="width: 100%;"></td>
+    </tr>
+    <tr>
+        <td><img src="Output/Image02.png" alt="Example Image 1" style="width: 100%;"></td>
+        <td><img src="Output/Image04.png" alt="Example Image 2" style="width: 100%;"></td>
+    </tr>
+</table>
+
+
 ## Dataset
 You can download the dataset used for this project from [Kaggle](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition?rvi=1). Make sure to place the dataset in an appropriate directory structure.
 

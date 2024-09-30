@@ -12,7 +12,7 @@ This project is a Convolutional Neural Network (CNN) model designed for classify
 
 ## Results
 
-![Screenshot of the Application](Output/Image01.png)
+<img src="Output/Image01.png" alt="Example Image 1" style="width: 50%;">
 
 <table>
     <tr>

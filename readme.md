@@ -1,6 +1,14 @@
 # Flower Classification using CNN
 
-This repository contains code for a Convolutional Neural Network (CNN) model that classifies different types of flowers. The model is trained using TensorFlow and Keras libraries.
+## Description
+This project is a Convolutional Neural Network (CNN) model designed for classifying flower images into five categories: Daisy, Dandelion, Rose, Sunflower, and Tulip. The model is trained using TensorFlow and Keras, and it utilizes image augmentation techniques to improve accuracy. The model achieves flower classification by predicting the type of flower from an input image.
+
+## Features
+- Image classification using CNN.
+- Data augmentation for improved accuracy.
+- Handles five different flower categories.
+- Saves the trained model for later use.
+- Predicts flower categories for new input images.
 
 ## Dataset
 You can download the dataset used for this project from [Kaggle](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition?rvi=1). Make sure to place the dataset in an appropriate directory structure.
@@ -48,6 +56,4 @@ You can download the dataset used for this project from [Kaggle](https://www.kag
 ## Model File
 After training, the model will be saved as `OutputFlower.h5`.
 
-## Contact
-For any inquiries or suggestions, please contact [Arshad Khan](https://github.com/Arshad-khan05).
 

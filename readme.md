@@ -12,16 +12,19 @@ This project is a Convolutional Neural Network (CNN) model designed for classify
 
 ## Results
 
-<img src="Output/Image01.png" alt="Example Image 1" style="width: 50%;">
 
 <table>
     <tr>
-        <td><img src="Output/Image05.png" alt="Example Image 1" style="width: 100%;"></td>
-        <td><img src="Output/Image03.png" alt="Example Image 2" style="width: 100%;"></td>
+        <td><img src="Output/Image01.png" alt="Example Image 1" style="width: 100%;"></td>
+        <td><img src="Output/Image02.png" alt="Example Image 2" style="width: 100%;"></td>
     </tr>
     <tr>
-        <td><img src="Output/Image02.png" alt="Example Image 1" style="width: 100%;"></td>
+        <td><img src="Output/Image03.png" alt="Example Image 1" style="width: 100%;"></td>
         <td><img src="Output/Image04.png" alt="Example Image 2" style="width: 100%;"></td>
+    </tr>
+    <tr>
+        <td><img src="Output/Image05.png" alt="Example Image 1" style="width: 100%;"></td>
+        <td><img src="Output/Image06.png" alt="Example Image 2" style="width: 100%;"></td>
     </tr>
 </table>
 
